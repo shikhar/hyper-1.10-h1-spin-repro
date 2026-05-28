@@ -8,5 +8,4 @@ hyper = { version = "=1.10.0", features = ["client", "http1"] } # change to =1.9
 hyper-util = { version = "0.1", features = ["tokio"] }
 http = "1"
 bytes = "1"
-tokio = { version = "1", features = ["rt", "macros", "io-util", "sync", "time"] }
-turmoil = "0.7.2"
+tokio = { version = "1", features = ["rt", "rt-multi-thread", "macros", "io-util", "sync", "time", "net"] }
